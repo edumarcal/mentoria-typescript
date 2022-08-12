@@ -14,7 +14,7 @@ function apresentarCPF(cpf: string) {
 }
 
 // E aqui passamos a variável cpf que contém um number, mas como ela é um any, o TS não reclama porque ela pode conter qualquer atributo, inclusive uma string
-apresentarCPF(cpf); 
+apresentarCPF(cpf);
 /**
     Usar any tira poder do typescript e pode criar incoerências no seu projeto
     O any é comumente usado quando um objeto desconhecido é manipulado, ou quando uma refatoração de JS para TS é aplicada rapidamente sem tipar os objetos utilizados

@@ -1,3 +1,4 @@
+export { } // Para não reclamar de variáveis duplicadas
 
 enum Trabalho {
     Atriz,

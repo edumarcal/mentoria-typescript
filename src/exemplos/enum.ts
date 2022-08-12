@@ -5,7 +5,7 @@ const sarah = {
     trabalho: 'Engenheira' // Nesse campo é dito que a sarah trabalha como 'Engenheira'
 }
 
-const maria = { 
+const maria = {
     name: 'Maria',
     idade: 23,
     casado: false,

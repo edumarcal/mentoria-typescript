@@ -5,7 +5,7 @@ const funcionario = {
 };
 
 // Resposta 2
-const funcionario2: {codigo: number, nome: string} = {
+const funcionario2: { codigo: number, nome: string } = {
     codigo: 10,
     nome: 'joao'
 }

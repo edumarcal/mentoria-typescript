@@ -1,7 +1,7 @@
 /**
  * A inferência de tipo também funciona para objetos.
  * Se estiver usando o visual studio code, tente passar o mouse por cima de um objeto não tipado e veja a mágica.
-*/ 
+*/
 const desenvolvedor = {
     name: 'Marco',
     idade: 25,
@@ -14,7 +14,7 @@ const desenvolvedor = {
  */
 
 // Nesse caso abaixo a tipagem foi explícita, então é necessário respeitar o tipo durante a criação do objeto.
-const carro: {cor: string, numeroDoPneu: number, conversivel: boolean} = {
+const carro: { cor: string, numeroDoPneu: number, conversivel: boolean } = {
     cor: 'vermelho',
     numeroDoPneu: 10,
     conversivel: true
@@ -27,13 +27,13 @@ const carro: {cor: string, numeroDoPneu: number, conversivel: boolean} = {
  */
 
 // Vamos usar pela primeira vez o tipo lista
- const estudante: {nome: string, idade: number, materias: string[]} = {
+const estudante: { nome: string, idade: number, materias: string[] } = {
     nome: 'Amanda',
     idade: 24,
     materias: ['Algoritmos', 'Lógica para computação']
- }
+}
 
- function listar(lista: string[]) {
+function listar(lista: string[]) {
     for (const item of lista) {
         console.log('- ' + item)
     }
